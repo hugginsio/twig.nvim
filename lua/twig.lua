@@ -1,7 +1,7 @@
 local Commands = require("twig.commands")
 local Twig = {}
 
-Twig.VERSION = "1.0.0" -- x-release-please-version
+Twig.VERSION = "1.0.1" -- x-release-please-version
 
 ---@class TwigOptions
 Twig.options = {
