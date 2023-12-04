@@ -14,8 +14,9 @@ M.TasksForBufferName = function(opts)
 
   local command = {
     "task",
-    "project:" .. bufferFilename,
+    "project:" .. matchPattern,
   }
+
   local result = vim.fn.system(command)
   print(table.concat(command, " ") .. "\n" .. result)
 end
